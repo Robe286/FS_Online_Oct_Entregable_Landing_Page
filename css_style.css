@@ -43,10 +43,24 @@ table {
 }
 
 /* end reset */
-.logo {
-    margin: 25px;
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: red;
 }
 
 .nav-categories {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.nav-categories a {
+    text-decoration: none;
+    color: #009d95;
 }
